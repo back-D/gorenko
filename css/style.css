@@ -284,6 +284,8 @@ section {
     text-align: left;
     letter-spacing: 2.5px;
     margin-bottom: -13px;
+    position: relative;
+    z-index: 21;
 }
 
 .section-type i {
@@ -861,7 +863,10 @@ img.cell-description {
 
 #contacts .section-title {
     color: #ffffff;
+    position: relative;
+    z-index: 20;
 }
+
 
 .contacts-inner {}
 
@@ -972,7 +977,8 @@ img.cell-description {
     width: 1366px;
     height: 397px;
     z-index: 9;
-    bottom: -5727px;
-    right: -17px;;
+    bottom: 510px;
+    right: 0;
     background: url("../img/bkg.png");
 }
+
